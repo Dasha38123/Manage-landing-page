@@ -39,6 +39,8 @@
   background-color: #f3603c;
   color: #fcf6f5;
   font-size: 13px;
+
+  box-shadow: 0 5px 5px #979797;
 }
 
 /*FIRST SECTION*/
@@ -66,9 +68,72 @@
   font-size: 16px;
   line-height: 26px;
   margin-top: 16px;
+  /* padding-right: 180px;*/
+  color: #242d52;
+}
+
+.first-description {
   padding-right: 180px;
 }
 
 .btn-first-section {
   margin-top: 40px;
+}
+
+/*SECOND SECTION*/
+
+.second-section {
+  padding-top: 132px;
+}
+
+.second-title {
+  color: #242d52;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 44px;
+  font-size: 40px;
+}
+
+.grid-2-colls-gap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 125px;
+}
+
+.number {
+  /*display: inline-block;*/
+  border-radius: 39px;
+  background-color: #f3603c;
+  color: #fff;
+  width: 67px;
+  height: 39px;
+  font-size: 16px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+.side-text {
+  position: relative;
+  margin-right: 28px;
+}
+
+.list-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #242d52;
+
+  margin-bottom: 20px;
+}
+
+.list-description {
+  line-height: 26px;
+  color: #242d52;
+  font-weight: 400;
+
+  margin-bottom: 40px;
 }
