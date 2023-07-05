@@ -29,6 +29,10 @@
   color: #242d52;
 }
 
+.main-nav-link:hover {
+  opacity: 50%;
+}
+
 .btn {
   height: 44px;
   width: 137px;
@@ -36,11 +40,17 @@
   border: none;
   background: none;
   cursor: pointer;
-  background-color: #f3603c;
-  color: #fcf6f5;
   font-size: 13px;
 
   box-shadow: 0 5px 5px #979797;
+}
+.orange-btn {
+  background-color: #f3603c;
+  color: #fcf6f5;
+}
+
+.btn:hover {
+  opacity: 50%;
 }
 
 /*FIRST SECTION*/
@@ -51,10 +61,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.first-section {
+.hero-section {
   padding-top: 110px;
 }
-.section-title {
+.hero-title {
   color: #242d52;
   font-weight: 700;
   line-height: 64px;
@@ -70,13 +80,14 @@
   margin-top: 16px;
   /* padding-right: 180px;*/
   color: #242d52;
+  opacity: 50%;
 }
 
-.first-description {
+.hero-description {
   padding-right: 180px;
 }
 
-.btn-first-section {
+.btn-hero-section {
   margin-top: 40px;
 }
 
@@ -134,6 +145,107 @@
   line-height: 26px;
   color: #242d52;
   font-weight: 400;
+  opacity: 50%;
 
   margin-bottom: 40px;
 }
+/*REVIEWS SECTION*/
+.reviews-section {
+  padding-top: 146px;
+  padding-bottom: 300px;
+}
+
+.slider {
+  margin-top: 64px;
+  display: flex;
+  gap: 30px;
+}
+
+.review-title {
+  text-align: center;
+  font-weight: 900;
+  line-height: 44px;
+  font-size: 40px;
+  margin-bottom: 58px;
+}
+
+.review-text-box {
+  background-color: #fafafa;
+  height: 220px;
+  width: 540px;
+  text-align: center;
+
+  position: relative;
+  top: 40px;
+}
+
+.review-photo {
+  position: absolute;
+  z-index: 1;
+}
+
+.name-review {
+  font-weight: 900;
+  font-size: 16px;
+
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.description-review {
+  opacity: 50%;
+  font-size: 16px;
+}
+
+.btn-center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*BG SECTION*/
+.section-bg {
+  background-color: #f3603c;
+  /*display: flex;
+  justify-content: space-between;*/
+  height: 220px;
+}
+
+.container-section-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 62px 165px;
+}
+.title-bg-section {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fff;
+
+  /* padding: 62px 520px 62px 165px;*/
+}
+.white-btn {
+  background-color: #fff;
+  color: #f3603c;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #1d1e25;
+  height: 250px;
+}
+
+.footer-container {
+  padding: 62px 171px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 3fr 5fr 5fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap:5.3rem ;
+  row-gap:2.2rem ;
+}
+
+.
