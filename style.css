@@ -93,11 +93,11 @@
 
 /*SECOND SECTION*/
 
-.second-section {
+.features-section {
   padding-top: 132px;
 }
 
-.second-title {
+.features-title {
   color: #242d52;
   font-weight: 700;
   margin-bottom: 24px;
@@ -127,10 +127,10 @@
 
   position: absolute;
 }
-
 .side-text {
   position: relative;
-  margin-right: 28px;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 .list-subtitle {
@@ -141,11 +141,16 @@
   margin-bottom: 20px;
 }
 
+.first-li{
+  margin-top: 15px;
+}
+
 .list-description {
   line-height: 26px;
   color: #242d52;
   font-weight: 400;
   opacity: 50%;
+
 
   margin-bottom: 40px;
 }
@@ -182,6 +187,8 @@
 .review-photo {
   position: absolute;
   z-index: 1;
+  width: 100px;
+  margin: 0 auto;
 }
 
 .name-review {
@@ -208,6 +215,9 @@
   /*display: flex;
   justify-content: space-between;*/
   height: 220px;
+  background-image: url(/image/bg\ bg-section.png), url(image/bg\ bg-section2.png);
+  /*background-position: top left;*/
+  background-repeat: no-repeat;
 }
 
 .container-section-bg {
